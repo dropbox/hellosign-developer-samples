@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  max-width: 950px;
+  margin: auto;
+}
+
+.card{
+  margin: 5px;
+}
+
+.preview_container {
+  display: none;
+  position: relative;
+  height: 500px;
+  margin-top: 5px;
+}

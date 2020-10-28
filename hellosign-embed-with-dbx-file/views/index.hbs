@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Bootstrap css and scripts-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- This page css and script-->
+    <script src="javascripts/page_script.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <!-- Dropbox and HelloSign client libraries-->
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="{{dropbox_app_key}}"></script>
+    <script src="https://cdn.hellosign.com/public/js/embedded/v2.9.0/embedded.development.js"></script>
+  </head>
+  <body>
+
+    <div class="jumbotron">
+      <h3>HelloSign Embeded Request</h3>      
+      <p>Select a file from Dropbox and prepare it for signature with HelloSign</p>
+    </div>
+
+    <form>
+
+      <!-- Hidden input to hold the HelloSign client_id-->
+      <input type="hidden" id="hs_client_id" value="{{hs_client_id}}">
+
+      <div class="card">
+        <div class="card-body">
+          <div class="col-md-4 mb-3">
+            <label for="sender_email">Sender email</label>
+            <input type="email" class="form-control" id="sender_email" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" >
+        <div class="card-body">
+          <h6 class="card-title">Document to sign</h6>
+          <div id= dropbox_chooser></div>
+          <div id = "dropbox_preview" class="preview_container"></div>
+        </div>
+      </div>
+
+      <div>
+        <button type="submit" id="prepare_button" class="btn btn-primary float-right" disabled>Prepare for signature</button>
+      </div>
+    </form>
+
+    <!-- Modal Presented when embed request is successful-->
+    <div class="modal fade" id="success_modal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Success</h5>
+          </div>
+          <div class="modal-body">
+            Signature request successfully sent
+          </div>
+          <div class="modal-footer">
+            <button id="success_modal_button" type="button" class="btn btn-primary">Send another request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
