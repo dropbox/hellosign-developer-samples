@@ -130,7 +130,7 @@ You're all set now, you can find more information about callbacks in the [HelloS
 
 Want to see the completed sample in action? Here’s a screen capture of the code sample running
 
-[https://www.dropbox.com/s/fb0c6k1vlt9ne1n/hellosign%20embeded%20request.mov?dl=0](https://www.dropbox.com/s/fb0c6k1vlt9ne1n/hellosign%20embeded%20request.mov?dl=0) 
+[https://www.dropbox.com/s/4vryujfyhzuh8e4/hellosign%20embedded%20requesting%20workflow.mp4?dl=0](https://www.dropbox.com/s/4vryujfyhzuh8e4/hellosign%20embedded%20requesting%20workflow.mp4?dl=0) 
 
 # What to do from here
 
