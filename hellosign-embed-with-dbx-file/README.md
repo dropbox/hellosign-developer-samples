@@ -1,3 +1,5 @@
+By Ruben Rincon  
+October, 2020
 
 # Background
 This code sample shows how to use the [Dropbox](https://www.dropbox.com/developers) [API](https://www.dropbox.com/developers) and [HelloSign API](https://www.hellosign.com/products/api?utm_medium=referral&utm_source=github&utm_campaign=api-devrel-10-26-20&utm_content=embedded-requesting-workflows-using-the-hellosign-and-dropbox-apis) to create a seamless [embedded requesting](https://app.hellosign.com/api/embeddedRequestingWalkthrough?utm_medium=referral&utm_source=github&utm_campaign=api-devrel-10-26-20&utm_content=embedded-requesting-workflows-using-the-hellosign-and-dropbox-apis) workflow. Embedded requesting allows you to have users create and send signature requests on your site in an iFrame.  
@@ -128,7 +130,7 @@ You're all set now, you can find more information about callbacks in the [HelloS
 
 Want to see the completed sample in action? Here’s a screen capture of the code sample running
 
-[https://www.dropbox.com/s/fb0c6k1vlt9ne1n/hellosign%20embeded%20request.mov?dl=0](https://www.dropbox.com/s/fb0c6k1vlt9ne1n/hellosign%20embeded%20request.mov?dl=0) 
+[https://www.dropbox.com/s/4vryujfyhzuh8e4/hellosign%20embedded%20requesting%20workflow.mp4?dl=0](https://www.dropbox.com/s/4vryujfyhzuh8e4/hellosign%20embedded%20requesting%20workflow.mp4?dl=0) 
 
 # What to do from here
 
