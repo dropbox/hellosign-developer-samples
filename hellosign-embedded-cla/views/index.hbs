@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.hellosign.com/public/js/embedded/v2.9.0/embedded.development.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const hs_client = new window.HelloSign({clientId: "{{hellosign_client_id}}" });
+      // Event triggered when the file is sent for signature
+      hs_client.on('sign', (data) => {
+        document.body.innerHTML = "<h2>Thanks for signing the CLA!</h2>"
+      });
+
+      let hs_options = { skipDomainVerification: true };
+      let embed_url = "{{{embed_url}}}";
+      hs_client.open(embed_url,hs_options);
+    </script>
+  </body>
+</html>

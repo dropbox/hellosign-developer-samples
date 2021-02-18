@@ -1,0 +1,19 @@
+{
+  "name": "hellosign-embedded-cla",
+  "version": "1.0.0",
+  "description": "Create embeded signature for a GitHub CLA using GitHub email",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ruben Rincon - (c) 2021 Dropbox, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "hellosign-sdk": "^1.6.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  }
+}
