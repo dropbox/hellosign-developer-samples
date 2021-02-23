@@ -3,4 +3,4 @@ When developers are contributing to an open source project, it's common practice
 
 The code in this repo shows one of the multiple ways to facilitate this process by implementing a CLA signing flow embedded in a webpage using the developer’s GitHub identity and the [embedded signing](https://app.hellosign.com/api/embeddedSigningWalkthrough) capability of the [HelloSign API](https://www.hellosign.com/products/api).
 
-The details of this implementation can be found in [this blogpost](http://hellosign.com), as well as instructions to simply run the code with the required configuration on HelloSign and GitHub.
+The details of this implementation can be found in [this blogpost](https://www.hellosign.com/blog/embed-a-cla-signing-page-using-nodejs-with-the-hellosign-and-github-apis), as well as instructions to simply run the code with the required configuration on HelloSign and GitHub.
