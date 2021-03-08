@@ -9,3 +9,4 @@ All code in this repo is written as samples for education and demonstration only
 ## Current samples in repo
 
 - [Embedded Requesting Workflows Using the HelloSign and Dropbox APIs](https://github.com/dropbox/HelloSign-Developer-Samples/tree/master/hellosign-embed-with-dbx-file)
+- [Embed a CLA Signing Page Using NodeJS with the HelloSign and GitHub APIs](https://github.com/dropbox/hellosign-developer-samples/tree/master/hellosign-embedded-cla)
